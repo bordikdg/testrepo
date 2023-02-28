@@ -29,8 +29,8 @@ services:
       - 5050:80
       - 443:443
     volumes:
-      - /certs/gazfond.local.crt:/certs/server.cert
-      - /certs/gazfond.local.key:/certs/server.key
+      - /certs/fond.local.crt:/certs/server.cert
+      - /certs/fond.local.key:/certs/server.key
       - pgadmin-data:/var/lib/pgadmin
       - /tmp/servers.json:/pgadmin4/servers.json
     networks:
